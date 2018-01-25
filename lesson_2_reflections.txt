@@ -24,7 +24,14 @@ organized? How would branches help?
 
 - What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	-> Merging two branches together results into one single branch containing all the commits from the two branches, which appear interleaved in the git log according to the time they were created.
 
 
 - What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+	-> 	pros: it's very useful and efficient and time saving
+		cons: if there were changes on the same area of the file from different users, GIT cannot really tell whether to keep or discard the changes, so the user/s have to figure out
+
+
+
+
