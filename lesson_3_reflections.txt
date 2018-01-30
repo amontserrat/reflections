@@ -6,3 +6,6 @@
 
 - Describe the differences between forks, clones and branches. When would you use one instead of another?
 	-> Fork is used to copy one repository from one GitHub account to your GitHub account. In this case a reference to the original repository is included, so one can alway know who is the original author. Clone, instead, is used to copy one repository to your local directory
+
+- What is the benefit of having a copy of the last known state of the remote stored locally?
+	-> One benefit is that in case changes were made to both the local and the remote repositories since the last sync, when pulling the last commits from the remote, these can be fetched into the local following the last known state of the remote. This makes possible to compare your last state of the master with the last pulled commits, before deciding to merge them or not.
