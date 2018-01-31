@@ -5,7 +5,10 @@
 	-> Because then I can decide when to pull some changes. I t could happen that some changes are broken or they are not definitely, so I can pull then changes when I'm sure they represent some sort of final version.
 
 - Describe the differences between forks, clones and branches. When would you use one instead of another?
-	-> Fork is used to copy one repository from one GitHub account to your GitHub account. In this case a reference to the original repository is included, so one can alway know who is the original author. Clone, instead, is used to copy one repository to your local directory
+	-> Fork is used to copy one repository from one GitHub account to your GitHub account. In this case a reference to the original repository is included, so one can alway know who is the original author. Clone, instead, is used to copy one repository to your local directory.
 
 - What is the benefit of having a copy of the last known state of the remote stored locally?
 	-> One benefit is that in case changes were made to both the local and the remote repositories since the last sync, when pulling the last commits from the remote, these can be fetched into the local following the last known state of the remote. This makes possible to compare your last state of the master with the last pulled commits, before deciding to merge them or not.
+
+- How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+	-> The harder part would be to keep track of all the changes made by all the collaborators and the process of sharing all the files to have all the changes history. Git/GitHub does this automatically. 
